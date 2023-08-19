@@ -1,11 +1,11 @@
 # gpt-discord-bot
 
-A Discord bot for having conversions with users utilizing GPT through OpenAI or Private language models.
+A Discord bot for having conversations with users utilizing GPT through OpenAI or Private language models.
 
 ## Features
 - /chat command 
   - `dialogue_prompt` argument  will set the system prompt for the bot
-  - will create a new Thread where you can start the conversion
+  - will create a new Thread where you can start the conversation
 - language prompting uses OpenAI's Completion API
   - Default model is `gpt-3.5-turbo` but can be switched using the `MODEL` env
   - The host can be switched using the `OPENAI_API_BASE` env to a private API
